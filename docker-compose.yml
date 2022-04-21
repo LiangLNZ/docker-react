@@ -4,4 +4,4 @@ services:
     build: .
     image: dancingdumpling/frontendprod
     ports:
-      - '80:80'
+      - '80:8080'
