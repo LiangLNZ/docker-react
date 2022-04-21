@@ -14,7 +14,7 @@ RUN npm run build
 
 
 FROM nginx
-EXPOSE 8080
+EXPOSE 80
 #here will work with or without chown to set the permission 
 COPY --from=builder /home/node/app/build /usr/share/nginx/html
 
