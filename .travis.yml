@@ -11,7 +11,7 @@ script:
   - docker run -e CI=true dancingdumpling/docker-react npm run test
 
 deploy:
-  provider: elasticbeanstalk
+  provider: elasticbeanstalkrr
   access_key_id:
     secure: "Encrypted <access-key-id>="
   secret_access_key:
